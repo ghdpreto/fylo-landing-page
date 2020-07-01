@@ -18,6 +18,7 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid;
 }
 
 html, body {
@@ -49,8 +50,15 @@ ul {
 }
 
 
-/* style */
+/* style especific */
 
+.medium--illustration {
+    width: 600px;
+    min-width: 350px;
+    justify-self: center;
+}
+
+/* header */
 
 header .container {
     display: flex;
@@ -129,11 +137,80 @@ section.description button {
     padding: 1rem;
 }
 
-section.description img {
-    width: 600px;
-    min-width: 350px;
+
+
+/* section 2 */
+
+section.operation {
+    max-width: 1440px;
+    padding: 20px;
+    margin-top: 300px;
+}
+
+section.operation .container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(375px, 1fr));
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 
+section.operation h2 {
+    font-size: 3.8rem;
+    line-height: 5rem;
+}
+
+section.operation p {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+
+    margin: 20px 0;
+}
+
+section.operation a {
+    font-size: 1.8rem;
+    color: var(--moderate-cyan);
+    line-height: 3.2rem;
+    padding: 0.8rem;
+    border-bottom: 1px solid;
+}
+
+section.operation .testimonial {
+    margin-top: 50px;
+    width: 350px;
+    padding: 40px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+section.operation .testimonial .quotes img{
+    height: 16px;
+}
+
+section.operation .testimonial p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+
+section.operation .author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+section.operation .author img {
+    height: 46px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+
+section.operation .info-author p {
+    font-size: 1.4rem;
+    margin: 0;
+}
 
 
