@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+
+    --very-dark-blue:hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+
+/* reset */
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* style */
+
+
